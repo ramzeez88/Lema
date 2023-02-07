@@ -19,7 +19,7 @@ import threading
 
 def rozpoczecie_programu():
     engine = pyttsx3.init()
-    engine.setProperty('rate', 300)
+    engine.setProperty('rate', 180)
     engine.getProperty('voices')
     voices = engine.getProperty('voices')
     engine.setProperty('voice', voices[2].id)
