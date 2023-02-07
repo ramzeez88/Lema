@@ -363,7 +363,7 @@ if __name__=="__main__":
                         powiedz('bardzo proszę')
                          
                #działa ok
-        elif tekst == 'podaj godzinę' or tekst == 'jaka godzina' or tekst == 'jaka jest godzina' or tekst == 'która godzina' or tekst == 'która jest godzina':
+        elif tekst == 'podaj godzinę' or tekst == 'jaka godzina' or tekst == 'jaki jest czas' or tekst == 'jaki mamy czas' or tekst == 'jaka jest godzina' or tekst == 'która godzina' or tekst == 'która jest godzina':
                         odczytaj_czas()
 
            #działa ok
@@ -530,7 +530,7 @@ if __name__=="__main__":
                 keyboard.write(char)
 
 
-        if 'narysuj coś' in tekst :
+        if tekst == 'narysuj coś' :
             powiedz("Jaką figurę chcesz narysować?")
             figura = rozpoznanie()
             rysuj(figura)
